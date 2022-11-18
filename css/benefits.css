@@ -1,4 +1,9 @@
 @media (min-width: 1260px) {
+    .benefits {
+        margin: 0 auto;
+        width: 1024px;
+        justify-content: space-between;
+    }
     .benefit {
         width: 251px;
     }
