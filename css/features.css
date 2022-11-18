@@ -1,6 +1,7 @@
 @media (min-width: 1261px) {
     .features {
         justify-content: center;
+        margin: 0 auto;
         margin-top: -83px;
     }
 
