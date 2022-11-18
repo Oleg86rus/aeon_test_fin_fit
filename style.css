@@ -1,0 +1,41 @@
+@import "css/header.css";
+
+@import "css/features.css";
+
+@import "css/benefits.css";
+
+@import "css/investments_product.css";
+
+@import "css/buttons.css";
+
+@import "css/icons.css";
+
+* {
+    font-family: 'Euclid Circular A', serif;
+    text-decoration: none;
+    /*margin: 0 auto;*/
+    padding: 0;
+}
+
+@media (min-width: 1261px) {
+    .container {
+        width: 1100px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .container {
+        padding: 0 60px;
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 980px) {
+    .container {
+        max-width: 550px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+}

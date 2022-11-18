@@ -1,0 +1,25 @@
+.icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9F6FFFF;
+    border-radius: 50px;
+    color: #0962E8;
+}
+
+@media (min-width: 981px) {
+    .feature_icon {
+        top: 22px;
+        right: 22px;
+    }
+}
+
+@media (max-width: 980px) {
+    .feature_icon {
+        top: -5px;
+        left: 12px;
+    }
+}

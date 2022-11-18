@@ -1,0 +1,121 @@
+@media (min-width: 1261px) {
+    .investments_product {
+        width: 1024px;
+        justify-content: space-between;
+        margin-bottom: 114px;
+    }
+
+    .investments_product_list {
+        width: 1024px;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .investments_product h2 {
+        margin-bottom: 44px;
+    }
+}
+
+@media (max-width: 980px) {
+    .investments_product {
+        max-width: 550px;
+    }
+
+    .investments_product_list {
+        max-width: 550px;
+    }
+
+    .investments_product_card {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .investments_product {
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+    .investments_product_list {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 900px;
+        min-height: 600px;
+        gap: 40px;
+    }
+
+    .investments_product_card {
+        max-width: 502px;
+    }
+
+    .investments_product_card img {
+        max-width: 200px;
+    }
+}
+
+.investments_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.investments_product h2 {
+    width: 753px;
+    height: 98px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    color: #29374E;
+}
+
+.investments_product a {
+    color: #0962E8;
+    text-decoration: none;
+}
+
+.investments_product_list {
+    width: 1024px;
+    display: flex;
+    align-items: center;
+}
+
+.investments_product_card {
+    display: flex;
+    justify-content: space-around;
+    max-width: 502px;
+    max-height: 328px;
+    left: 208px;
+    top: 963px;
+    background: #E9F6FF;
+    border-radius: 30px;
+}
+
+.investments_product_card div {
+    width: 200px;
+    margin: 30px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.investments_product_card div h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 15px;
+}
+
+.investments_product_card p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.investments_product_card img {
+    overflow: hidden;
+    margin-bottom: -10px;
+}

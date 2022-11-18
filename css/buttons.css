@@ -1,0 +1,19 @@
+button {
+    width: 199px;
+    height: 52px;
+    background: #0962E8;
+    border-radius: 12px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E38111FF;
+}
